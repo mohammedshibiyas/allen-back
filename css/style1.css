@@ -25,6 +25,7 @@
     justify-content:right;
     gap: 10px;
     margin-right: 15px;
+    margin-top: 30px;
 }
 .allen img {
     width: 100px;
@@ -48,38 +49,90 @@
     margin-left: 10px;
     margin-top: 13px;
 }
-.store div i{
+
+.store a {
+    text-decoration: none;
     color: white;
-    margin-top: 30px;
-    font-family:'Raleway', sans-serif;
-    gap: 5px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.00938em;
+    padding-top: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
 }
-.store,.contact,.login span{
-    margin-left: 10px;
+
+.store span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 9px;
+    font-size: 13px;
 }
-.contact i{
+
+.contact span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 9px;
+    font-size: 13px;
+}
+
+.login span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 9px;
+    font-size: 13px;
+}
+
+.contact a {
+    text-decoration: none;
     color: white;
-    margin-top: 30px;
-    font-family:'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.00938em;
+    padding-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+
 }
-.login i{
+
+.login a {
+    text-decoration: none;
     color: white;
-    margin-top: 30px;
-    font-family:'Raleway', sans-serif;
+    font-family: Cabin;
+    letter-spacing: 0.00938em;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
 }
-.fav i{
+
+.fav a {
+    text-decoration: none;
     color: white;
-    margin-top: 30px; 
+    padding: 10px;
+
+    letter-spacing: 0.00938em;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
 }
-.cart i{
+
+.cart a {
+    text-decoration: none;
     color: white;
-    margin-top: 30px;
+
+    letter-spacing: 0.00938em;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.right span:hover{
+    color: yellow;
 }
 .aditya img{
     width: 145px;
     height: 70px;
-    margin-top: 1px;
     margin-right: 1px;
+    
 }
 .gridmain2{
     display: flex;
@@ -89,6 +142,7 @@
    justify-content: space-evenly;
 }
 .allenimg img{
+    padding-top: 5px;
     height: 70px;
     margin-left: 10px;
 }
@@ -129,19 +183,19 @@
     border-bottom: 1px solid black;
 }
 .banner{
-    background-image: url("../images/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)), url("../images/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic.jpg");
     width: 100%;
     height: 900px;
     background-size: cover;
     
 }
-.bannerlabel{
+.bannersub{
     justify-content: center;
     align-items: center;
 }
-.bannersub div{
-    margin-left: 1000px;
-    align-items: ;
+.bannersub{
+    justify-content: center;
+    
 }
 .circle{
     display: flex;
@@ -157,24 +211,36 @@
     text-align: center;
     margin-left: 5px;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-    font-weight: normal; 
+    font-weight: bold; 
 }
 .yellow{
+    display: flex;
     background-color:#f0db7b;
-    height: 200px;
+    height: 230px;
 }
-.label1 h1{
+.label1 h1{  
     font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;;
+}
+.label2 h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size:large ;
+    padding-bottom: 0 !important;
 }
 .label3{
     display: flex;
+    
     flex-wrap: wrap;
     gap: 8px;
 }
 .label3 p{
-    border: dotted 1px black;
+    border: dotted 2px black;
     border-radius: 6px;
+    padding-left: 100px;
     padding-top: 4px;
+    padding: 0 !important;
+    width: 100px;
+    height: 20px;
     background-color: rgb(236, 236, 18);
 }
 .yellow1{
@@ -184,4 +250,72 @@
 .label3 img{
     height: 40px;
     padding-top: 9px;
+}
+.qr img{
+    margin-left:140px;
+    height: 180px;
+    padding: 20px;
+    
+
+}
+.allenbottom img{
+    margin-left: 250px;
+    width:80%;
+
+}
+.yellow3 img{
+    justify-content: center;
+    align-items: center;
+}
+.fresh h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: #0e3051;
+}
+.freshparent{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.freshparent p{
+    text-align: center;
+    font-family:"Roboto","Helvetica","Arial",sans-serif ;
+    color:#0e3051 ;
+    font-weight: bold;
+    font-size: larger;
+}
+.alenborder{
+    text-align: center;
+    padding-top: 40px;
+}
+.shopbottom{
+    text-align: center;
+    padding-top: 20px;
+    color: #0e3964;
+    font-family:"Roboto","Helvetica","Arial",sans-serif;
+}
+.explore p{
+    text-align: center;
+    color:#0e3964 ;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-family:"Roboto","Helvetica","Arial",sans-serif ;
+}
+.listitems{
+    display: flex;   
+    gap: 15px;
+    justify-content: center;
+}
+.listitems p{
+    font-family:"Roboto","Helvetica","Arial",sans-serif ;
+    font-weight: bold;
+    color: #0e3051;
+    padding-top: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.listitems p:hover{
+    border-bottom:2px solid red;
 }
